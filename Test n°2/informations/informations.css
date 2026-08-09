@@ -1,38 +1,61 @@
-body {
-    background-color: #007FFF;
-} 
-
-p {
-    color: black;
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_m-uTxJvhzv-MxG56lWHqmmE3N3vtqq5NI6uTG0zNQ&s=10");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
 }
 
-h1 {
+.case, #case1 {
+    background-color: lightgray;
+    border: 5px solid black;
+    border-radius: 25%;
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+}
+
+#case1 {
+    background-color: gray;
+    width: 400px;
+    height: 100px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black ;
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: auto ;
-    font-style: italic;
-    font-weight: auto ;
-    height: 60px;
-    width: 100px;
-    border: solid 5px black;
-    border-radius: 20px;
-    margin: auto ;
-    padding: 9px ;
-}
- button {
-    color: black;
-    background-color: green;
-    font-size: 20px;
-    font-weight: 800;
-    height: 60px;
-    width: 150px;
-    border: solid 4px black;
-    border-radius: 20px;
-    margin: auto;
-    display: block;
+    padding: 20px;
 }
 
+.segments {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.segment {
+    width: 400px;
+    height: 400px;
+    background-color: darkgray;
+    border: 3px solid black;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.segment h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.segment p {
+    font-size: 20px;
+    line-height: 1,5;
+    margin: 0;
+}
