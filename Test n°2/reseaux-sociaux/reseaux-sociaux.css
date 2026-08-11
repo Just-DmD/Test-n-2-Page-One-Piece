@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSiyaeGfAacvPGpmKTtn9VFZxiRJ8gd_-tXza8tgMJmA&s=10");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#titre {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    height: 100px   ;
+    border: 5px solid black;
+    border-radius: 25%;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: lightgray;
+    font-size: 40px;
+    font-weight: 800;
+    height: 180px;
+    width: 350px;
+    border: solid 4px black;
+    border-radius: 100px;
+    margin: auto;
+}
