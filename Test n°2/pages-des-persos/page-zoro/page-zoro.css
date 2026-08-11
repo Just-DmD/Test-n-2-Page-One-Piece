@@ -1,6 +1,7 @@
 body {
-    background-image: url("https://i.pinimg.com/736x/a7/3c/0c/a73c0c1ab059b24d1ba6ac048e28aabe.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuxEFPQ8_hnQ6qegye56uZoMeRyNrC-vSwHZYQuoXVZQ&s=10");
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -43,8 +44,9 @@ h3 {
 }
 
 #img {
-    background-image: url("https://i.pinimg.com/736x/71/43/32/714332efdf6bf9317d777403c52064bd.jpg");
+    background-image: url("https://i.pinimg.com/736x/a8/56/0f/a8560fb2df083c65d66e90d94e533a27.jpg");
     background-size: 100%;
+    background-position: ;
     background-repeat: no-repeat;
 }
 
@@ -52,5 +54,6 @@ p {
     color: black;
     box-sizing: border-box;
     font-size: 17px;
-    padding: 10px;
+    padding: 15px;
+    line-height: 1.1;
 }
